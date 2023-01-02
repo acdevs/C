@@ -6,7 +6,7 @@ void main(){
     scanf("%d", &n);
     for(int i = 1; i <= n; i++){
         for(int s = 1; s <= n-i; s++){
-            printf("   ");
+            printf("   "); // 3 spaces
         }
         for(int j = 1; j <= i; j++){
             printf("%3d", j);
