@@ -36,4 +36,10 @@ void main(){
     //printf("A B\aC D\tEFGHIJK LM NOP\rQRSTU\bVWX\nYZ");
     printf("%d", casted);
     //char i = '\b';
+
+    // Integer promotion... from char to int
+    char a = 30, b = 40, c = 10;
+    char d = (a * b) / c;
+    printf ("%d ", d); 
+    return 0;
 }

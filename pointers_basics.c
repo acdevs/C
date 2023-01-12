@@ -31,15 +31,4 @@ void main(){
     *p = 6;
     printf("%d\n", a);
 
-    //Void Pointer!
-    void *ptr1 = NULL;
-    printf("%d", ptr);
-
-    //NULL Pointer!
-    int *ptr2 = NULL;
-    printf("%d", ptr);
-
-    //Wild Pointer!
-    int *ptr3;
-    printf("%d", ptr); //error!
 }
