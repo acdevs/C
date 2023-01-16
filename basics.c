@@ -30,16 +30,17 @@ void main(){
     //enum boolean {false, true} check;
 
     //double a = 3e14;
-    float a = 2.67;
-    float b = 6.34;
-    int casted = (int)b;
+    // float a = 2.67;
+    // float b = 6.34;
+    // int casted = (int)b;
     //printf("A B\aC D\tEFGHIJK LM NOP\rQRSTU\bVWX\nYZ");
-    printf("%d", casted);
+    // printf("%d", casted);
     //char i = '\b';
 
     // Integer promotion... from char to int
-    char a = 30, b = 40, c = 10;
-    char d = (a * b) / c;
-    printf ("%d ", d); 
-    return 0;
+    // char a = 30, b = 40, c = 10;
+    // char d = (a * b) / c;
+    // printf ("%d ", d); 
+    // return 0;
+    printf("%lf", 0.1 + 0.2);
 }
