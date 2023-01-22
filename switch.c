@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int x = 101;
+    int x = 7;
 
     // The expression used in switch must be integral type (int, char and enum).
     switch (x)
     {
     // case x: The integral expressions used in labels must be a constant expressions
 
-    x += 1; // never executed!!!
+    x += 1; // never executes!!!
 
     case 1: printf("Choice is 1");
             break;

@@ -1,6 +1,18 @@
 #include<stdio.h>
 
 int main(){
+    printf("Matrix Transpose: \nRows Cols? ");
+    int rows, cols;
+    scanf("%d %d", &rows, &cols);
+    int mtx[rows][cols];
+
+    printf("Matrix: ");
+    for(int i=0; i< rows; i++){
+        for(int j=0; j< cols; j++){
+            scanf(" %d", &mtx[i][j]);
+        }
+    }
+/* 
     int mtx[2][3] = {
         {4, 5, 2},
         {6, 4, 7},
@@ -8,7 +20,7 @@ int main(){
 
     int rows = (sizeof(mtx)/sizeof(mtx[0]));
     int cols = (sizeof(mtx)/sizeof(mtx[0][0]))/rows;
-
+*/
 /* 
     //transposing a square-matrix in-place!
     for(int row = 0; row < rows; row++){
