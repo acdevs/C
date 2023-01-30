@@ -6,7 +6,7 @@ int main(){
     int arr[] = {1, 2, 3, 4, 5}, sum = 9;
     int len = sizeof(arr)/sizeof(arr[0]);
 
-        for(int i = 0; i < len; i++){
+    for(int i = 0; i < len; i++){
         for(int j = 0; j < len; j++){
             for(int k = 0; k < len; k++){
                 if(i != j && j != k && i != k && (arr[i] + arr[j] + arr[k] == sum)){
