@@ -2,7 +2,7 @@
 
 int main(){
     char suits[4][9] = {"clubs", "diamonds", "hearts", "spades"};
-    char faces[4][6] = {"jack", "queen", "king"};
+    char faces[3][6] = {"jack", "queen", "king"};
 
     int number;
     printf("Enter number: ");

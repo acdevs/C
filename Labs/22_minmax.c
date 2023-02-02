@@ -1,12 +1,16 @@
 #include<stdio.h>
 
 int main(){
-    // array
-    int arr[] = {1, 2, 6, 3, 7, 9, 8, 3, 5};
-    int len = sizeof(arr)/sizeof(arr[0]);
+    int n;
+    printf("Array: size? ");
+    scanf("%d", &n);
+    int arr[n];
+    for(int i = 0; i < n; i++){
+        scanf("%d", &arr[i]);
+    }
     int min = arr[0], max = arr[0];
 
-    for(int i = 1; i < len; i++){
+    for(int i = 1; i < n; i++){
         if(min > arr[i]){
             min = arr[i];
         }

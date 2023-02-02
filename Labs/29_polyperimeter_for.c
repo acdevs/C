@@ -17,6 +17,5 @@ int main(){
         float side = sqrt(pow((points[i][0] - points[j][0]), 2) + pow((points[i][1] - points[j][1]), 2));
         perimeter += side;
     }
-
     printf("Perimeter: %.2f", perimeter);
 }
