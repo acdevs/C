@@ -4,7 +4,7 @@ void main(){
 
     //input using puts and flush statement
     puts("Enter Size: ");
-    char num = getc();
+    char num = getchar();
     flush(stdin);
 
     if (num == '2'){

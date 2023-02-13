@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void main(){
+    //bss segment:  contains statically allocated variables that are declared but have not been assigned a value yet.
     //datatype *varname;
     int a = 5, b = 4;
 //    int *p, *q;

@@ -21,10 +21,10 @@ int main(){
     printf(" b = ");
     scanf("%i", &b);
     printf("main: a = %i, b = %i\n", a, b);
-    //call by reference...
-    swap_ref(&a, &b);
-    printf("main: a = %i, b = %i\n", a, b);
     //call by value...
     swap_val(a, b);
+    printf("main: a = %i, b = %i\n", a, b);
+    //call by reference...
+    swap_ref(&a, &b);
     printf("main: a = %i, b = %i\n", a, b);
 }

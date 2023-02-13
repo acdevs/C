@@ -6,7 +6,7 @@ int main(){
 //     int arr[5]; // {0, 0, 0, 0, 0}
 //     arr[3 / 2] = 2; // this is same as arr[1] = 2
 
-/* 
+/*
   ........  Array name gives address of first element of array.
 */
 

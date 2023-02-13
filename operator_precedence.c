@@ -26,3 +26,6 @@ void main(){
 
     printf("%d", b);
 }
+
+//with 2 operators.. not possible 
+//Same precedence, different associativity

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h> 
-#include <ctype.h> //for isalpha(), isdigit(), isalnum(), islower(), isupper(), tolower(), toupper()
+#include<ctype.h> //for isalpha(), isdigit(), isalnum(), islower(), isupper(), tolower(), toupper()
 
 int main(){
     char str[] = "Aman Chandra"; //mutable
