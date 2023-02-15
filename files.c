@@ -7,7 +7,7 @@ int main(){
         printf("Error opening file");
         return 1;
     }
-    
+    //...........................get/put..........................
     //reading char by char...
     // char ch;
     // while((ch = fgetc(f)) != EOF){
@@ -26,8 +26,18 @@ int main(){
     // printf("%s", str);
 
     //writing...
-    char str[25] = "get lost!";  
-    fputs(str, f);
+    // char str[25] = "get lost!";  
+    // fputs(str, f);
+
+
+    //........................ fprintf/fscanf.........................
+    //writing...
+    // fprintf(f, "Hello\n");  
+
+    //reading...
+    // char str[25];
+    // fscanf(f, "%[^\n]s", str);
+    // printf("%s", str);
 
     fclose(f);
     return 0;

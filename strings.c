@@ -36,7 +36,7 @@ int main(){
 
     //reading a string using pointer...
 
-    char* ptr = str; 
+    char* ptr = str;
     ptr+=6;
 
     // printf("%s\n", ptr); //reads the whole string afterwards...

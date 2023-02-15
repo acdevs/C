@@ -4,19 +4,19 @@
 int main(){
     //mind-bending results? 🙀
 
-    // //1
+    //1
     // int j = 35 ;
     // printf ("\n%d %d %d", j == 35, j = 50, j > 40);
 
-    // //2
+    //2
     // int x= 15 ;
     // printf("\n%d %d %d", x != 15, x = 20, x < 30 );
 
-    // //3
+    //3
     // int k = 3, h = 4 ;
     // // if (k = h)
 
-    // //4
+    //4
     // if( k <= 4){
     //     {
     //         k = h;
@@ -24,7 +24,7 @@ int main(){
     //     }
     // }
 
-    // //5
+    //5
     // int i = 4, z = 12 ;
     // if (i = 5 || "matlab hi nhi" )
     // printf ( "\nDean of students affairs" ) ;

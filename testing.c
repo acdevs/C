@@ -1,9 +1,27 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <math.h>
 int main() 
 {
     
+    // int bin;
+    // scanf("%d", &bin);
+    // int dec = 0, i = 0;
+    // while(bin != 0){
+    //     int rem = bin % 10;
+    //     dec += rem * pow(2, i);
+    //     bin = bin / 10;
+    //     i++;
+    // }
+    // printf("Decimal: %d", dec);
+
+    // char names[2][10];
+    // for(int i = 0; i < 2; i++){
+    //     scanf("%s", names[i]);
+    // }
+    // printf("%s\n", names[0]);
+    // printf("%s\n", names[1]);
+
 
 // int i;
 // int arr[5]={1};

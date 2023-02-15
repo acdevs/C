@@ -16,7 +16,8 @@ void myCleanupFun (void)
 
 void main(){
     int res = 2002;
-    printf("%d", res);
+    printf("%d %d\n", res++, res++);
+    // printf("%d\n", ++res);
 }
 
 // A function with same name cannot have different signatures
