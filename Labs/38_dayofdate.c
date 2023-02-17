@@ -8,14 +8,14 @@ int isLeap(int year){
     }
 }
 int main(){
-    //year >= 2000... 🙂, we're Gen Zz...
+    //date >= 1 Jan, 1970...
     int day, month, year;
     printf("Enter a date (dd/mm/yyyy): ");
     scanf("%d/%d/%d", &day, &month, &year);
 
     char days[][10] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-    int setweek = 5;
-    int checkyrs = 2000;
+    int setweek = 3;
+    int checkyrs = 1970;
 
     while(checkyrs < year){
         if(isLeap(checkyrs)){

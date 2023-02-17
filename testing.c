@@ -3,7 +3,9 @@
 #include <math.h>
 int main() 
 {
-    
+    char *str = "Aman";
+    scanf("%10s", str);
+    printf("%s", str);
     // int bin;
     // scanf("%d", &bin);
     // int dec = 0, i = 0;
