@@ -17,13 +17,15 @@ int main(){
     int setweek = 3;
     int checkyrs = 1970;
 
-    while(checkyrs < year){
-        if(isLeap(checkyrs)){
-            setweek += 1;
-        }
-        setweek += 1;
-        checkyrs++;
-    }
+    setweek += (year - 1970) / 4 + (year - 1970); //mathematical formula
+    //    or
+    // while(checkyrs < year){
+    //     if(isLeap(checkyrs)){
+    //         setweek += 1;
+    //     }
+    //     setweek += 1;
+    //     checkyrs++;
+    // }
 
     int months[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     if(isLeap(year)){
