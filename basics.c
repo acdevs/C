@@ -14,12 +14,13 @@ void main(){
     //printf("%f", t);
     //printf("%d",strlen(name));
     //printf("Age is %d yrs.", age);
-    //printf("Aman" "says hi!"); // Valid... :)
+    // printf("Aman" "says hi!"); // Valid... :)
 
-    //char tweet[25] = "Could be\
- this\
- way!!!";
-    //printf(tweet);
+    char tweet[] = "Could be\
+this\
+way!!!";
+    // char tweet[] = "Could bethisway!!!";
+    printf("%i", sizeof(tweet));
 
 
     //enumeration..
@@ -38,9 +39,9 @@ void main(){
     //char i = '\b';
 
     // Integer promotion... from char to int
-    // char a = 30, b = 40, c = 10;
-    // char d = (a * b) / c;
-    // printf ("%d ", d); 
+    char a = 30, b = 40, c = 10;
+    char d = (a * b) / c;
+    printf ("%d ", d); 
     // return 0;
     printf("%lf", 0.1 + 0.2);
 }

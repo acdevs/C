@@ -61,10 +61,10 @@ int main(){
     // s2.roll = 34;
     // s2.marks = 87.54;
 
-    Student *ptr = &s1;
+    Student *ptr = &s1; //pointer to structure
     printf("Name : %s", ptr->name);
 
-    // struct array x = getarray();  
+    // struct array x = getarray();
     // printf("Elements that you have entered are :");  
     // for(int i=0;x.arr[i]!='\0';i++){  
     //     printf("%d ", x.arr[i]);  

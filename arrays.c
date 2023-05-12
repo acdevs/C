@@ -11,7 +11,7 @@ int main(){
 */
 
     int *ptr = arr; // *ptr = &arr[0]
-//     printf("%d\n", *ptr);
+    printf("%d\n", *ptr);
 
 
 //     // traversing arrays...
@@ -44,7 +44,7 @@ int main(){
 
 
     // fun()
-    fun(arr);
+    // fun(arr);
 
       // Multi-Dimensional Arrays
       // int a[][2] = {{1, 2}, {3, 4}}; // 2D array
@@ -54,10 +54,10 @@ int main(){
   ........  Array parameters are always passed as pointers, even when we use square brackets. 
 */
 
-int fun(int ptr[]){
-      printf("sizeof(ptr) = %d\n", (int)sizeof(*ptr));
-      int x = 6;
-      // This allowed because ptr is a pointer, not array
-      ptr = &x;
-      printf("*ptr = %d ", *(ptr));
-}
+// int fun(int ptr[]){
+//       printf("sizeof(ptr) = %d\n", (int)sizeof(*ptr));
+//       int x = 6;
+//       // This allowed because ptr is a pointer, not array
+//       ptr = &x;
+//       printf("*ptr = %d ", *(ptr));
+// }

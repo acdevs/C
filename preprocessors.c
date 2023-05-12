@@ -6,7 +6,7 @@
 // stdio.h – Defines core input and output functions
 // stdlib.h – Defines numeric conversion functions, pseudo-random network generator, and memory allocation
 // string.h – Defines string handling functions
-// math.h – Defines common mathematical functions.
+// math.h – Defines common mathematical functions.(abs in stdlib.h)
 
 /* void main(){    // bad practice
     printf("Hello World");

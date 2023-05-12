@@ -36,8 +36,6 @@ void main(){
     printf("%d %d %d %d %d %d %d", sunday, monday, tuesday, wednesday, thursday, friday, saturday);
 
 
-    return 0;
-
     // Enums over macros...
     // Enums follow scope rules. 
     // Enum variables are automatically assigned values. Following is simpler 

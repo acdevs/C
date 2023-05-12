@@ -1,3 +1,6 @@
+
+//Functions in C Language are always _External
+
 #include<stdio.h>
 /* Apply the constructor attribute to myStartupFun() so that it is executed before main() */
 void myStartupFun (void) __attribute__ ((constructor));
@@ -16,8 +19,8 @@ void myCleanupFun (void)
 
 void main(){
     int res = 2002;
-    printf("%d %d\n", res++, res++);
-    // printf("%d\n", ++res);
+    // printf("%d %d\n", res++, res++);
+    printf("%d\n", ++res);
 }
 
 // A function with same name cannot have different signatures

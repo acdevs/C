@@ -1,8 +1,10 @@
+//The standard header <stdarg.h> is used for variable list arguments (…) in C.
+
 #include <stdio.h> 
 
 //Command Line Arguments in C
 
-void main(char *argv[])  {  
+void main(char argc, char *argv[])  {  
   
    printf("Program name is: %s\n", argv[0]);  
    
@@ -10,6 +12,6 @@ void main(char *argv[])  {
       printf("No argument passed through command line.\n");  
    }
    else{  
-      printf("First argument is: %s\n", argv[1]);  
+      printf("First argument is: %s\n", argv[1]);
    }  
 }

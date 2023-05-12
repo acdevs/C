@@ -6,7 +6,7 @@
 
 // Subtraction of integer to a pointer: - size of datatype * integer
 
-// Subtracting two pointers of the same type: bits / size of datatype
+// Subtracting two pointers of the same type: (bits / size of datatype)
 
 // Comparison of pointers of the same type.
 // Assignment of pointers to the same type of pointers.

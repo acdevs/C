@@ -13,7 +13,7 @@ int main(){
     printf("Enter a date (dd/mm/yyyy): ");
     scanf("%d/%d/%d", &day, &month, &year);
 
-    char days[][10] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+    char days[7][10] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
     int setweek = 3;
     int checkyrs = 1970;
 

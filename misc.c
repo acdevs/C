@@ -34,7 +34,7 @@ int main(){
     //6
     // int i = 4, j = -1, k = 0, w;
     // // w = i = i + 5 && j + 1 || k + 2;
-    // if (!i + !j*1) // figuring out... 🥲
+    // if (1) // figuring out... 🥲
     // printf("\n%d", w);
 
     //7
@@ -195,5 +195,17 @@ int main(){
     // int i;
     // for (i=0;i<strlen(str);i++)
     // printf("%s",str++);
+
+    // 28
+    // short int i = 20;
+    // char c = 97;
+    // printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i)); //2, 1, 4
+
+    //29
+    // 1 < 2 ? return 1: return 2; //error
+
+    //30
+    // int x;
+    // (x = 2)!= 1 ? printf("1") : printf("2"); //1
 
 }

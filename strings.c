@@ -4,7 +4,7 @@
 
 int main(){
     char str[] = "Aman Chandra"; //mutable
-    const cstr[] = "acdevs"; //immutable
+    const char cstr[] = "acdevs"; //immutable
     char watches[] = {'Y','T','\0'};
 
     // %s is used to print strings
@@ -37,7 +37,7 @@ int main(){
     //reading a string using pointer...
 
     char* ptr = str;
-    ptr+=6;
+    // ptr+=6;
 
     // printf("%s\n", ptr); //reads the whole string afterwards...
     // printf("%c\n", *ptr);
@@ -51,13 +51,13 @@ int main(){
     // } 
     // printf("\n");
 
-    //// reverse printing a string...
-    // ptr = str;
-    // ptr += strlen(str);
-    // while (ptr != str) {  
-    //     printf("%c", *(--ptr));  
-    // }
-    // printf("\n");
+    // reverse printing a string...
+    ptr = str;
+    ptr += strlen(str);
+    while (ptr != str) {  
+        printf("%c", *(--ptr));  
+    }
+    printf("\n");
 
 
 

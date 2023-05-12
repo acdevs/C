@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    typedef char *string;
-    string p = "HELLO";
+    typedef char* String;
+    String p = "HELLO";
+    // char *p = "HELLO";
     // printf("%s", p);
 
     // char str[] = "HELLO";
@@ -12,7 +13,7 @@ int main()
     //inputting the strings...
     char s[20];  
     printf("Enter the string?");  
-    scanf("%[^\n]s", s);  
+    scanf("%[^\n]s", s);  //skips the space
     printf("You entered %s", s);  
 
 }

@@ -3,9 +3,9 @@
 #include <math.h>
 int main() 
 {
-    char *str = "Aman";
-    scanf("%10s", str);
-    printf("%s", str);
+    // char *str = "Aman";
+    // scanf("%10s", str);
+    // printf("%s", str);
     // int bin;
     // scanf("%d", &bin);
     // int dec = 0, i = 0;
@@ -22,7 +22,7 @@ int main()
     //     scanf("%s", names[i]);
     // }
     // printf("%s\n", names[0]);
-    // printf("%s\n", names[1]);
+    // printf("%s\n", names[1]); 
 
 
 // int i;
@@ -30,10 +30,10 @@ int main()
 // for(i=0;i<5;i++)
 // printf("%d", arr[i]);
 
-//     char temp;
-// char arr[10] = {1, 2, 3, 4, 5, 6, 9, 8};
-// temp = (arr + 1)[2];
-// printf("%d\n", temp);
+    // char temp;
+    // int arr[10] = {1, 2, 3, 4, 5, 6, 9, 8};
+    // temp = (arr + 1)[2];
+    // printf("%d\n", temp);
 
     // int *ptr;
     // int x;
@@ -71,7 +71,7 @@ int main()
     // int *ptr1 = arr;
     // int *ptr2 = arr + 5;
     // printf("Number of elements between two pointer are: %d.", (ptr2 - ptr1));
-    // int i = 6, *j, k;
+    // int i = 6, *j, k = 35;
     // j = &i;
     // printf("%d", i* *j *i + *j);
     // int arr[] = {1,2,3};

@@ -5,14 +5,16 @@ void main(){
 
     // int a = 4, 3; // error
 
-    int b = a + a++; // done! ++ -- has higher precedence than + - * / % ! ~
-    b = a++ + ++b;
+    // int b = a + a++; // done! ++ -- has higher precedence than + - * / % ! ~
+    // printf("%d", b);
+    // b = a++ + ++a;
 
     // int size_of_a = sizeof(++a); // not executed
     // printf("size(a) = %d\na = %d", size_of_a, a);
 
-    // float exp = 12 % 7 / 4;
-    // printf("%d", exp);
+    float exp = 12 % 7 / 4;
+    // float exp = (float)(12 % 7) / 4;
+    printf("%f", exp);
 
     // int flag = (int)'a' == 98 ? 1 : 0;
     // printf("%d", flag);
@@ -24,7 +26,7 @@ void main(){
     // 1 <<- 1 and 1 >> -1 is undefined
     // 1 << 33 is undefined if integers are stored using 32 bits
 
-    printf("%d", b);
+    // printf("%d", b);
 }
 
 //with 2 operators.. not possible 

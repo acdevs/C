@@ -7,6 +7,7 @@ int main(){
         printf("Error opening file");
         return 1;
     }
+    
     //...........................get/put..........................
     //reading char by char...
     // char ch;
