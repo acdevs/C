@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<stdbool.h>
+// #include<stdbool.h>
 
 int main(){
     int n;
     printf("Enter number: ");
     scanf("%d", &n);
     int i = n + 1;
-    while(true){
+    while(1){
         int temp = i;
         int rev = 0;
         while(temp > 0){

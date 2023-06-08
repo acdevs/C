@@ -35,12 +35,12 @@ int main(){
   ........  Array members are accessed using pointer arithmetic. 
 */
     for(int i = 0; i < 5; i++){
-      //     printf("%d ", *(ptr + i));
-      //     printf("%d ", *(arr + i));
-      //     printf("%d ", arr[i]);
+          // printf("%d ", *(ptr + i));
+          // printf("%d ", *(arr + i));
+          // printf("%d ", arr[i]);
           printf("%d ", ptr[i]);
     }
-    printf("\n");
+    // printf("\n");
 
 
     // fun()

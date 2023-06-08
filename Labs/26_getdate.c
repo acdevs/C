@@ -21,7 +21,7 @@ int main(){
     for(int i = 0; i < 12; i++){
         getdays += months[i];
         if(getdays >= ndays){
-            int date = getdays - ndays - months[i];
+            int date = (getdays - ndays) - months[i];
             printf("Date: %02d/%02d/%04d", date > 0 ? date : -date, i+1, year);
             break;
         }
