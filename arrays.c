@@ -3,6 +3,10 @@
 int main(){
 
     int arr[] = {1, 2, 3, 4, 5};
+    // printf("%d", sizeof(arr));
+
+    int x = 'a';
+    printf("%.2f", (float)x);
 //     int arr[5]; // {0, 0, 0, 0, 0}
 //     arr[3 / 2] = 2; // this is same as arr[1] = 2
 
@@ -10,8 +14,8 @@ int main(){
   ........  Array name gives address of first element of array.
 */
 
-    int *ptr = arr; // *ptr = &arr[0]
-    printf("%d\n", *ptr);
+    // int *ptr = arr; // *ptr = &arr[0]
+    // printf("%d\n", *ptr);
 
 
 //     // traversing arrays...
@@ -34,12 +38,12 @@ int main(){
 /* 
   ........  Array members are accessed using pointer arithmetic. 
 */
-    for(int i = 0; i < 5; i++){
-          // printf("%d ", *(ptr + i));
-          // printf("%d ", *(arr + i));
-          // printf("%d ", arr[i]);
-          printf("%d ", ptr[i]);
-    }
+    // for(int i = 0; i < 5; i++){
+    //       // printf("%d ", *(ptr + i));
+    //       // printf("%d ", *(arr + i));
+    //       // printf("%d ", arr[i]);
+    //       printf("%d ", ptr[i]);
+    // }
     // printf("\n");
 
 
