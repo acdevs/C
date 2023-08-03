@@ -2,11 +2,12 @@
 
 int main(){
 
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 5, 3, 4, 2};
     // printf("%d", sizeof(arr));
 
-    int x = 'a';
-    printf("%.2f", (float)x);
+    // int x = 'a';
+    // int value = *(arr);
+    // printf("%d", value);
 //     int arr[5]; // {0, 0, 0, 0, 0}
 //     arr[3 / 2] = 2; // this is same as arr[1] = 2
 
@@ -22,8 +23,12 @@ int main(){
 //     int arr[6] = {11, 12, 13, 14, 15, 16};
     
 //     // Way 1
-//     for(int i = 0; i < 6; i++)
-//           printf("%i ", arr[i]);
+// printf("{");
+//     for(int i = 0; i < 5; i++)
+//           i != 4 ? printf("%i, ", arr[i]) : printf("%i", arr[i]);
+// printf("}\n");
+
+printf("%d", arr);
   
 //     printf("\n");
     
@@ -50,8 +55,9 @@ int main(){
     // fun()
     // fun(arr);
 
-      // Multi-Dimensional Arrays
-      // int a[][2] = {{1, 2}, {3, 4}}; // 2D array
+    // Multi-Dimensional Arrays
+    // int a[][2] = {{1, 2}, {3, 4}}; // 2D array
+    int a[][1][1][4] = {{{{4,5}}}, {{{4,5}}}}; // 4D array
 }
 
 /* 

@@ -3,20 +3,23 @@
 #include<ctype.h> //for isalpha(), isdigit(), isalnum(), islower(), isupper(), tolower(), toupper()
 
 int main(){
-    char str[] = "Aman Chandra"; //mutable
+    char str[13] = "Aman Chandra"; //mutable
     const char cstr[] = "acdevs"; //immutable
     char watches[] = {'Y','T','\0'};
 
+    // str[3] = '6'; //works
+
     // %s is used to print strings
-    printf("%s watches %s.\n" ,str, watches);
-    printf("Length of \"%s\" is %d\n" , watches, strlen(watches)); 
-    printf("but, Size-of \"%s\" is %d\n" , watches, sizeof(watches)); 
+    // printf("%s watches %s.\n" ,str, watches);
+    // printf("Length of \"%s\" is %d\n" , watches, strlen(watches)); 
+    // printf("but, Size-of \"%s\" is %d\n" , watches, sizeof(watches)); 
 
     // //scanf()
 
     // char str[25];
     // printf("\nEnter a string: ");
-    // scanf(" %s", str); //no & required
+    // scanf("%s", str); //no & required
+    // printf("%s\n", str);
 
     // //fgets() and fputs() are used to read and write strings from and to stream.
 
@@ -28,11 +31,11 @@ int main(){
 
     // //gets() and puts() are used to read and write strings from and to stream.
 
-    // char gstr[5];
-    // printf("Enter a string: ");
-    // gets(gstr);
-    // puts(gstr); //newline is added automatically
-    // printf("Length of \"%s\" is %d\n", gstr, strlen(gstr)); 
+    char gstr[5];
+    printf("Enter a string: ");
+    gets(gstr);
+    puts(gstr); //newline is added automatically
+    printf("Length of \"%s\" is %d\n", gstr, strlen(gstr)); 
 
     //reading a string using pointer...
 
