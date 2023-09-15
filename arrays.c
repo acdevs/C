@@ -2,7 +2,12 @@
 
 int main(){
 
-    int arr[] = {1, 5, 3, 4, 2};
+    // int arr[] = {1, 5, 3, 4, 2};
+    int *arr = {1, 5, 3, 4, 2};
+    // this is not allowed because excess elements in scalar initializer...
+
+
+
     // printf("%d", sizeof(arr));
 
     // int x = 'a';
@@ -28,7 +33,7 @@ int main(){
 //           i != 4 ? printf("%i, ", arr[i]) : printf("%i", arr[i]);
 // printf("}\n");
 
-printf("%d", arr);
+printf("%d", *arr);
   
 //     printf("\n");
     
@@ -57,7 +62,7 @@ printf("%d", arr);
 
     // Multi-Dimensional Arrays
     // int a[][2] = {{1, 2}, {3, 4}}; // 2D array
-    int a[][1][1][4] = {{{{4,5}}}, {{{4,5}}}}; // 4D array
+    // int a[][1][1][4] = {{{{4,5}}}, {{{4,5}}}}; // 4D array
 }
 
 /* 

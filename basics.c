@@ -2,6 +2,9 @@
 #define Pi 3.14
 void main(){
 
+    char x = -1;
+    printf("%d\n", 4 % 10 + 10);
+
     //char name[10] = "hello me";
     //int age = 19;
     //int octal_num = 010;
